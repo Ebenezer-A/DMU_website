@@ -1,0 +1,79 @@
+.nav-ul {
+    list-style-type:  none;
+
+}
+
+.container1 {
+    display: inline;
+}
+
+.h3-h {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.h3-h-welcome {
+  text-transform: capitalize;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(https://unsplash.imgix.net/uploads%2F14115408840644deb16b0%2F2dc933e3?q=75&fm=jpg&auto=format&s=7f43646e4d26049c6c39890afb2e5ced);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.vision {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsmallbizclub.com%2Fwp-content%2Fuploads%2F2018%2F03%2FCommunicating-Your-Vision-Clearly.jpg&f=1&nofb=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.mission {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Frocksdigital.com%2Fwp-content%2Fuploads%2F2016%2F12%2FMIssion-for-your-business.jpg&f=1&nofb=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 180px;
+    padding-bottom: 180px;}
+
+.header-text {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: serif;
+    font-size: 80px;
+}
+
+.vision-text {
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.mission-text {
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 25px;
+}
