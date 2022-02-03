@@ -1,14 +1,24 @@
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 .nav-ul {
     list-style-type:  none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
 }
 
 .nav-ul li {
-  float: left;
+    float:  left;
 }
+
 
 .nav-ul li a {
   display: block;
@@ -16,8 +26,12 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: Arial ;
 }
 
+.nav a:hover {
+        color: #0000ff;
+}
 
 .container1 {
     display: inline;
@@ -36,11 +50,11 @@
   font-weight: 300;
 }
 
-header {
+.header {
     text-align: center;
     color: #fff;
+    background-image: url("img1.jpg");
     background-attachment: scroll;
-    background-image: url(https://unsplash.imgix.net/uploads%2F14115408840644deb16b0%2F2dc933e3?q=75&fm=jpg&auto=format&s=7f43646e4d26049c6c39890afb2e5ced);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -52,7 +66,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsmallbizclub.com%2Fwp-content%2Fuploads%2F2018%2F03%2FCommunicating-Your-Vision-Clearly.jpg&f=1&nofb=1);
+    background-image: url("img2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 180px;
@@ -63,7 +77,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Frocksdigital.com%2Fwp-content%2Fuploads%2F2016%2F12%2FMIssion-for-your-business.jpg&f=1&nofb=1);
+    background-image: url("img3.jpg");    
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 180px;
@@ -92,4 +106,17 @@ header {
     font-size: 25px;
     font-weight: 100;
     line-height: 25px;
+}
+
+.footer {
+    background-color: #333;
+    color: #c5ab63;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer a {
+    color: #c5ab63;
+    text-decoration: none;
+    display: block;
 }
