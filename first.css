@@ -3,22 +3,46 @@ body {
     margin-right: 0px;
 }
 
+.nav a:hover {
+  color: #475053;
+  padding: 14px 16px;
+  background-color: #f0fbff;
+  border-radius: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.nav-brand a:hover{
+  color: #ffffff;
+  background-color: #262626;
+}
+
 .nav-ul {
     list-style-type:  none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
+    background-color:  #262626;
     position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
 
 }
 
-.nav-ul li {
-    float:  left;
+.nav-ul div {
+  display: inline-block;
 }
 
+.nav-ul div  li {
+  display: inline-block;
+}
+
+.nav-brand {
+  margin-right: 50px;
+}
+
+.nav-ul li {
+  align-items: center;
+}
 
 .nav-ul li a {
   display: block;
@@ -26,15 +50,9 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: Arial ;
-}
+  font-family: Segoe UI;
+  font-size: 17px;
 
-.nav a:hover {
-        color: #0000ff;
-}
-
-.container1 {
-    display: inline;
 }
 
 .h3-h {
@@ -58,26 +76,30 @@ body {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 180px;
-    padding-bottom: 180px;
+    padding-top: 160px;
+    padding-bottom: 160px;
 }
 
 .vision {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url("img2.jpg");
+    background-image: url("img3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 180px;
     padding-bottom: 180px;
 }
 
+.vision div {
+  display: inline;
+}
+
 .mission {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url("img3.jpg");    
+    background-image: url("img2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 180px;
@@ -91,12 +113,12 @@ body {
 }
 
 .vision-text {
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     text-transform: capitalize;
     font-family: cursive;
-    font-size: 25px;
-    font-weight: 100;
-    line-height: 25px;
+    font-size: 20px;
+    /*font-weight: 50;
+    line-height: 20px;*/
 }
 
 .mission-text {
@@ -108,15 +130,82 @@ body {
     line-height: 25px;
 }
 
+.teamlist-all {
+  background-image:url("img7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.teamlist-all h3 {
+  font-size: 30px;
+  text-align: center;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.teamlist li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 25px;
+  margin-left: 1.5%;
+}
+
+.team-1 li a{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Century Gothic;
+  font-size: 30px;
+  padding: 7px;
+}
+
+.team-2 {
+  margin-top: 15px;
+}
+
+.team-2 li a{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Century Gothic;
+  font-size: 30px;
+  padding: 7px;
+
+}
+
+.teamlist li a:hover {
+  border: 1px;
+  border-radius: 25px;
+  background-color: #f2910a;
+  color: #000;
+  padding: 7px;
+}
+
 .footer {
-    background-color: #333;
-    color: #c5ab63;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    background-color: #222831;
+    color: #f2910a;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 17px;
 }
 
 .footer a {
-    color: #c5ab63;
+    color: #f2910a;
     text-decoration: none;
-    display: block;
+    display: inline-block;
+}
+
+.footer div {
+  display: inline-block;
+}
+
+.social-media a {
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.address {
+  margin-right: 20px;
 }
