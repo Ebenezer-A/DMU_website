@@ -25,7 +25,6 @@ body {
     position: fixed;
     top: 0px;
     width: 100%;
-
 }
 
 .nav-ul div {
@@ -34,14 +33,11 @@ body {
 
 .nav-ul div  li {
   display: inline-block;
+  text-align: center;
 }
 
 .nav-brand {
   margin-right: 50px;
-}
-
-.nav-ul li {
-  align-items: center;
 }
 
 .nav-ul li a {
@@ -76,8 +72,8 @@ body {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 160px;
-    padding-bottom: 160px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .vision {
@@ -87,12 +83,8 @@ body {
     background-image: url("img3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 180px;
-    padding-bottom: 180px;
-}
-
-.vision div {
-  display: inline;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .mission {
@@ -102,8 +94,8 @@ body {
     background-image: url("img2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 180px;
-    padding-bottom: 180px;}
+    padding-top: 100px;
+    padding-bottom: 10px;}
 
 .header-text {
     margin-bottom: 25px;
@@ -116,7 +108,7 @@ body {
     margin-bottom: 0px;
     text-transform: capitalize;
     font-family: cursive;
-    font-size: 20px;
+    font-size: 25px;
     /*font-weight: 50;
     line-height: 20px;*/
 }
@@ -188,20 +180,20 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 17px;
+    text-align: center;
 }
 
 .footer a {
     color: #f2910a;
     text-decoration: none;
-    display: inline-block;
 }
 
 .footer div {
-  display: inline-block;
+  display: block;
 }
 
 .social-media a {
-  display: block;
+  display: inline-block;
   margin-left: 20px;
   margin-right: 20px;
 }
